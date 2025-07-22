@@ -120,3 +120,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .slogan {
+    @apply text-lg font-medium text-gray-700;
+  }
+
+  .slogan-title {
+    @apply bg-gradient-to-r from-pink-400 to-blue-400 bg-clip-text text-transparent;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply text-gray-500; 
+  }
+}

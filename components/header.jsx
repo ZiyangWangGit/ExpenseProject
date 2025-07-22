@@ -40,7 +40,7 @@ export default function Header() {
               href="#how-it-works"
               className="text-sm font-medium hover:text-pink-300 transition"
             >
-              How It Works
+              See How It Works
             </Link>
           </div>
         )}
@@ -78,7 +78,7 @@ export default function Header() {
             </SignInButton>
 
             <SignUpButton>
-            <Button className="bg-pink-100 hover:bg-pink-200 text-black-800 border-none">
+            <Button className="bg-pink-100 hover:bg-pink-200 text-pink-700 border-none">
                 Get Started
             </Button>
             </SignUpButton>
